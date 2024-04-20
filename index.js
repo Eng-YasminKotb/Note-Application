@@ -1,7 +1,6 @@
 var express=require("express")
-var db_Connection=require("./Database/connection")
+var db=require("./Database/connection")
 var app=express();
-
 
 
 app.listen(3000,()=>{
